@@ -1,0 +1,104 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+div {
+  display: flex;
+}
+
+header,
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 50px;
+  background-color: blue;
+  color: white;
+}
+
+header {
+  justify-content: space-between;
+  width: 100%;
+  top: 0;
+}
+
+footer {
+  bottom: 0;
+  justify-content: center;
+}
+
+.headerlogo {
+  padding-left: 15%;
+}
+
+.headerrightside {
+  height: 100%;
+  padding-right: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerbuttons {
+  margin-left: 50px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  color: white;
+  background-color: gray;
+}
+
+#top {
+  display: flex;
+  background-color: blue;
+}
+
+#topmid,
+#bottom {
+  background-color: white;
+  color: black;
+}
+
+.topcontent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-right: 10%;
+  padding-left: 15%;
+}
+
+.topcontentright {
+  flex: 1;
+  padding-right: 15%;
+}
+
+.placeholderimage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  height: 150px;
+  width: 100%;
+}
+
+.description {
+  padding-bottom: 10px;
+}
+
+.signupbutton {
+  height: 30px;
+  width: 100px;
+}
