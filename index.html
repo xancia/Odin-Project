@@ -2,12 +2,13 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
   </head>
   <body>
     <header>
       <div>Header Logo</div>
       <div class="headerlinks-main">
-        <a class="headerlinks">header link one</a>
+        <a class="headerlinks" id="link-one">Visit Google</a>
         <a class="headerlinks">header link two</a>
         <a class="headerlinks">header link three</a>
       </div>
@@ -15,9 +16,15 @@
     <main class="main">
       <div class="hero">
         <div class="hero-content">
-          <h1>This website is awesome</h1>
-          <h4>This website has some subtext that goes here.</h4>
-          <button class="hero-button">Sign up</button>
+          <h1 id="hero-title" class="hero-main-title">This website is awesome</h1>
+          <h4 id="hero-text">This website has some subtext that goes here.</h4>
+          <p>
+            <ul id="comments">
+              <li class="comments">Comments</li>
+            </ul>
+          </p>
+          <input placeholder="type something">
+          <button type="button" class="hero-button">Sign up</button>
         </div>
         <div class="hero-image">this is a placeholder for an image</div>
       </div>
